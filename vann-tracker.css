@@ -2,15 +2,6 @@
 --dark:121,189,154;
 --light:171,219,194;
 }
-.vann-tracker {height: 590px; width: 602px; position: relative; overflow: hidden;}
-
-.vann-tracker input { display: none; }
-
-.vann-tracker input + label { display: block; border: 1px solid rgba(51,51,51,0.1); height: 50px; width: 50px; border-radius: 50%; background-color: #f4f4f4; margin-top: 5px; font-family: poppins; font-weight: 800; text-align: center; line-height: 50px; font-size: 25px; color: rgba(51,51,51,0.5); text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff; -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -o-transition: all 0.6s ease; position: absolute; top: 30px; left: 15px; z-index: 102;}
-.vann-tracker input ~ .tab {  opacity: 0; -webkit-transition: all 0.6s ease;
-    -moz-transition: all 0.6s ease;
-    -o-transition: all 0.6s ease; }
-.vann-tracker .tab { position: absolute; top: 540px; z-index: 105; width: 560px; padding: 20px; height: 400px; border: 1px solid rgba(51,51,51,.1); border-top: 0px; background-color: #fff; }
 
 .vann-header {
 width: 560px;
