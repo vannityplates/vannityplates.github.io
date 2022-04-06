@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&display=swap');
+
+#vann-color {
+--dark:245,105,145;
+--light:255,184,204;
+}
+.vann-postbot {
+width: 400px;
+height: 70px;
+padding: 20px;
+border: 1px solid rgba(51,51,51,0.1);
+background-color: #f2f2f2;
+position: relative;
+position: -50px;
+overflow: hidden;
+}
+
+.vann-rotbot {
+width: 200px;
+height: 200px;
+padding: 10px;
+background-color: rgba(var(--dark), 0.7);
+transform: rotate(50deg);
+position: absolute;
+right: -95px;
+top: 20px;
+border-radius: 50%;
+z-index: 99;
+}
+.vann-icon {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background-color: #fff;
+border: 10px solid rgba(var(--light),1);
+position: absolute;
+z-index: 100;
+right: 50px;
+top: 15px;
+font-size: 30px;
+line-height: 65px;
+color: rgba(var(--light),0.8);
+text-align: center;
+}
+.vann-chara-tag {
+font-family: poppins;
+font-weight: 600;
+font-size: 20px;
+letter-spacing: -1px;
+font-style: italic;
+color: rgba(51, 51, 51, 0.6);
+position: absolute;
+left: 30px;
+top: 25px;
+line-height: 40px;
+text-align: right;
+text-transform: uppercase;
+text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.vann-chara-tag a {
+color: rgba(var(--dark),1)!important;
+}
+.vann-line {
+width: 150px;
+height: 5px;
+background-color: rgba(var(--dark), 0.7);
+border: 1px solid #fff;
+position: absolute;
+left: -5px;
+top: 60px;
+-webkit-border-top-right-radius: 100px;
+-webkit-border-bottom-right-radius: 100px;
+-moz-border-radius-topright: 100px;
+-moz-border-radius-bottomright: 100px;
+border-top-right-radius: 100px;
+border-bottom-right-radius: 100px;
+}
+.vann-date {
+font-family: poppins;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -1px;
+font-style: italic;
+color: rgba(51, 51, 51, 0.6);
+position: absolute;
+left: 20px;
+top: 60px;
+line-height: 40px;
+text-align: right;
+text-transform: lowercase;
+text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.vann-posttop {
+margin-top: 30px;
+width: 360px;
+padding: 40px;
+border: 1px solid rgba(51,51,51,0.1);
+background-color: #fff;
+border-bottom: 0px;
+text-align: left;
+font-size: 15px;
+}
+.vann-posttop b {
+color: rgba(var(--dark),1);
+font-weight: 600;
+}
+.vann-posttop b a {
+color: rgba(var(--dark),1)!important;
+font-weight: 600;
+}
