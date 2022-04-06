@@ -1,6 +1,7 @@
 .v-temp {
 --dark:121,189,154;
 --light:171,219,194;
+--icon: https://i.ibb.co/Y8WhZnX/vann200-2.jpg;
 }
 
 .vann-header {
@@ -46,7 +47,7 @@ position: absolute;
 left: 20px;
 top: 80px;
 z-index: 106;
-background-image: linear-gradient(to bottom, rgba(255,255,255,.2), rgba(var(--light),.4)), url('https://i.ibb.co/Y8WhZnX/vann200-2.jpg');
+background-image: linear-gradient(to bottom, rgba(255,255,255,.2), rgba(var(--light),.4)), url('var(--icon)');
 background-position: center;
 background-repeat: no-repeat;
 }
