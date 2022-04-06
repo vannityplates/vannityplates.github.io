@@ -19,7 +19,7 @@ z-index: 99;
 width: 200px;
 height: 200px;
 padding: 10px;
-background-color: rgba(var(--dark),1)
+background-color: rgba(var(--dark),1);
 transform: rotate(50deg);
 position: absolute;
 left: -95px;
