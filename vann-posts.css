@@ -19,28 +19,30 @@ overflow: hidden;
 width: 200px;
 height: 200px;
 padding: 10px;
-background-color: rgba(var(--dark), 0.7);
+background-color: rgba(var(--dark), 0.6);
 transform: rotate(50deg);
 position: absolute;
 right: -95px;
 top: 20px;
 border-radius: 50%;
 z-index: 99;
+border: 1px solid #fff;
 }
 .vann-icon {
-width: 60px;
-height: 60px;
+width: 80px;
+height: 80px;
 border-radius: 50%;
-background-color: #fff;
-border: 10px solid rgba(var(--light),1);
+background-color: rgba(var(--light),1);
 position: absolute;
 z-index: 100;
 right: 50px;
 top: 15px;
 font-size: 30px;
-line-height: 65px;
-color: rgba(var(--light),0.8);
+line-height: 90px;
+font-weight: 400;
+color: rgba(255,255,255,.8);
 text-align: center;
+border: 1px solid #fff;
 }
 .vann-chara-tag {
 font-family: poppins;
@@ -59,6 +61,9 @@ text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 .vann-chara-tag a {
 color: rgba(var(--dark),1)!important;
+}
+.multi-tag {
+font-size: 16px;
 }
 .vann-line {
 width: 150px;
@@ -92,13 +97,17 @@ text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 .vann-posttop {
 margin-top: 30px;
-width: 360px;
-padding: 40px;
+width: 380px;
+padding: 30px;
 border: 1px solid rgba(51,51,51,0.1);
 background-color: #fff;
 border-bottom: 0px;
 text-align: left;
 font-size: 15px;
+font-family: nunito;
+font-weight: 400;
+line-height: 24px;
+color: #797979;
 }
 .vann-posttop b {
 color: rgba(var(--dark),1);
@@ -107,4 +116,29 @@ font-weight: 600;
 .vann-posttop b a {
 color: rgba(var(--dark),1)!important;
 font-weight: 600;
+}
+.vann-notes {
+width: 390px;
+position: relative;
+top: 20px;
+right: 1px;
+padding: 10px;
+background-color: rgba(var(--light), .5);
+border: 1px solid rgba(var(--dark),.3);
+border-right: 0px;
+margin-bottom: 20px;
+}
+.vann-inner-notes {
+background-color: #fff;
+border: 1px solid rgba(var(--dark),.3);
+padding: 10px;
+font-size: 12px;
+font-style: italic;
+}
+.vann-inner-notes b {
+color: rgba(var(--dark),1);
+}
+.vann-inner-post {
+border: 1px solid rgba(51,51,51,0.1);
+padding: 20px;
 }
