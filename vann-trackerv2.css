@@ -297,12 +297,11 @@ position: relative;
 top: -10px;
 z-index: 4;
 height: 220px;
-overflow-y: scroll;
+overflow-y: scroll!important;
 display: inline-flex;
 flex-wrap: wrap;
 align-content: flex-start;
 }
-.v-rel-container::-webkit-scrollbar { display: none; }
 .v-relationship {
 font-family: nunito;
 font-weight: 700;
