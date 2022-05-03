@@ -52,7 +52,12 @@ line-height: 40px;
 text-align: right;
 text-transform: uppercase;
 }
-.vann-chara-tag a b {
+.vann-chara-tag a {
+color: rgba(var(--dark),1)!important;
+text-decoration: none;
+text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.vann-chara-tag b {
 color: rgba(var(--dark),1)!important;
 text-decoration: none;
 text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
