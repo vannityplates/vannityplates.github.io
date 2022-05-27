@@ -90,15 +90,6 @@ position: relative;
 top: 12px;
 }
 
-.jem-plotter #rook-tab2 ~ .tab.rook-content2 {
-top: -487px;
-}
-.jem-plotter #rook-tab3 ~ .tab.rook-content3 {
-top: -887px;
-}
-.jem-plotter #rook-tab4 ~ .tab.rook-content4 {
-top: -1287px;
-}
 .jem-plotter input + label span { 
 position: relative;
 top: 12px;
@@ -388,7 +379,7 @@ font-family: 'starry';
 color: #fff;
 -webkit-font-smoothing: antialiased;
 position: relative;
-top: 9px;
+top: 14px;
 }
 .jem-canons-title {
 width: 310px;
