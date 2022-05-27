@@ -469,7 +469,7 @@ text-shadow: -1px 0 #f3f3f3, 0 1px #f3f3f3, 1px 0 #f3f3f3, 0 -1px #f3f3f3;
 position: relative;
 top: 20px;
 }
-.jem-bubble span { position: relative; top: 12px; }
+.jem-bubble span { position: relative; top: 0px; }
 .jem-stat-name {
 font-family: nunito;
 font-weight: 700;
