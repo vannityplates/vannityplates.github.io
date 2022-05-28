@@ -173,13 +173,12 @@ text-shadow: -1px 0 #f3f3f3, 0 1px #f3f3f3, 1px 0 #f3f3f3, 0 -1px #f3f3f3;
 .jem-plotter .thread-ongoing {
 width: 310px;
 padding: 10px;
-height: 50px;
+overflow: hidden;
 }
 .jem-plotter .thread-closed {
 width: 310px;
 padding: 10px;
 overflow: hidden;
-height: 50px;
 }
 .jem-plotter .thread-title {
 color: rgba(var(--color),1);
@@ -250,6 +249,7 @@ background-color: rgba(var(--color),.2);
 display: inline-block;
 margin-left: 5px;
 padding: 4px;
+margin-bottom: 4px; 
 }
 .jem-plotter .thread-ongoing tag:before {
 content: '# ';
@@ -267,6 +267,7 @@ background-color: rgba(240,240,240,.4);
 display: inline-block;
 margin-left: 5px;
 padding: 4px;
+margin-bottom: 4px; 
 }
 .jem-plotter .thread-closed tag:before {
 content: '# ';
