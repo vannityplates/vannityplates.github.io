@@ -644,7 +644,7 @@ flex-basis: auto;
 overflow: hidden;
 }
 .jem-rel-container knows:before {
-content: '\61';
+content: '\a68';
 font-family: 'starry';
 -webkit-font-smoothing: antialiased;
 font-size: 18px;
