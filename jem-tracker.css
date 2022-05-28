@@ -174,17 +174,18 @@ margin-bottom: 10px;
 .jem-plotter .thread-ongoing {
 width: 310px;
 padding: 10px;
-overflow: hidden;
-min-height: 50px;
-max-height: 70px;
+overflow-y: auto;
+overflow-x: hidden;
 }
+.jem-plotter .thread-ongoing::-webkit-scrollbar { display: none; }
 .jem-plotter .thread-closed {
 width: 310px;
 padding: 10px;
-overflow: hidden;
-min-height: 50px;
-max-height: 70px;
+overflow-y: auto;
+overflow-x: hidden;
 }
+.jem-plotter .thread-closed::-webkit-scrollbar { display: none; }
+
 .jem-plotter .thread-title {
 color: rgba(var(--color),1);
 font-family: ubuntu;
@@ -238,6 +239,7 @@ top: 12px;
 }
 .jem-plotter .tag-box {
 width: 260px;
+height: 40px;
 position: relative;
 top: -45px;
 left: 20px;
