@@ -623,7 +623,7 @@ float: left;
 border-right: 1px solid rgba(var(--color), 1);
 padding-right: 5px;
 }
-.jem-rel-container neutral {
+.jem-rel-container knows {
 font-family: nunito;
 font-weight: 700;
 color: rgba(var(--color),1);
@@ -639,7 +639,7 @@ flex-grow: 1;
 flex-basis: auto;
 overflow: hidden;
 }
-.jem-rel-container neutral:before {
+.jem-rel-container knows:before {
 content: '\a61';
 font-family: 'starry';
 -webkit-font-smoothing: antialiased;
