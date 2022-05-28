@@ -642,7 +642,7 @@ flex-basis: auto;
 overflow: hidden;
 }
 .jem-rel-container knows:before {
-content: '\a61';
+content: '\61';
 font-family: 'starry';
 -webkit-font-smoothing: antialiased;
 font-size: 18px;
