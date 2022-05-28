@@ -175,13 +175,15 @@ margin-bottom: 10px;
 width: 310px;
 padding: 10px;
 overflow: hidden;
-height: 70px;
+min-height: 50px;
+max-height: 70px;
 }
 .jem-plotter .thread-closed {
 width: 310px;
 padding: 10px;
 overflow: hidden;
-height: 70px;
+min-height: 50px;
+max-height: 70px;
 }
 .jem-plotter .thread-title {
 color: rgba(var(--color),1);
