@@ -92,6 +92,9 @@ font-weight: 800;
 background: rgba(var(--dark),1);
 padding: 5px;
 color: #fff;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
 }
 .scandal tag a {
 color: #fff; }
