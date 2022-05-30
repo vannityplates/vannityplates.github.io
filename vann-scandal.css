@@ -53,7 +53,7 @@ position: absolute;
 z-index: 5;
 top: -20px;
 left: 10px;
-text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+text-shadow: -1px 0 #f3f3f3, 0 1px #f3f3f3, 1px 0 #f3f3f3, 0 -1px #f3f3f3;
 }
 .scandal-top {
 width: 452px;
