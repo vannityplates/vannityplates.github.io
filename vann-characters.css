@@ -1,0 +1,31 @@
+#ara {
+--dark:134, 73, 140;
+--light:198, 161, 201;
+--unicode: '\a91';
+}
+#audrey {
+--dark:235, 126, 91;
+--light:255, 159, 128;
+--unicode: '\a85';
+}
+#julyan {
+--dark:140, 154, 230;
+--light:199, 206, 237;
+--unicode: '\e905';
+}
+
+#louka {
+--dark:121,189,154;
+--light:171,219,194;
+--unicode: '\a92';
+}
+#lyna {
+--dark:250, 135, 168;
+--light:242, 206, 216;
+--unicode: '\a1';
+}
+#nico {
+--dark:240, 131, 96;
+--light:252, 195, 177;
+--unicode: '\e908';
+}
