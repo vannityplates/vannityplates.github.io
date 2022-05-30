@@ -15,9 +15,9 @@ min-height: 120px;
 .scandal-icon {
 width: 70px;
 height: 70px;
-background: #f3f3f3;
+background: #fff;
 position: relative;
-border: 1px solid #fff;
+border: 1px solid #f3f3f3;
 z-index: 5;
 top: -20px;
 right: -400px;
@@ -38,9 +38,9 @@ color: rgba(var(--dark),1);
 .scandal-date {
 width: 100px;
 padding: 10px;
-background: #f3f3f3;
+background: #fff;
 color: rgba(var(--dark),1);
-border: 1px solid #fff;
+border: 1px solid #f3f3f3;
 font-family: roboto;
 font-weight: 900;
 text-transform: uppercase;
