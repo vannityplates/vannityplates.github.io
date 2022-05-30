@@ -100,6 +100,7 @@ border-radius: 5px;
 color: #fff; }
 .scandal-post {
 padding: 30px;
+padding-bottom: 20px;
 font-family: nunito;
 font-weight: 400;
 color: rgba(120,120,120,1);
