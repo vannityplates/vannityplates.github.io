@@ -9,7 +9,7 @@ border: 1px solid #e0e0e0;
 border-bottom: 0px;
 min-height: 200px;
 }
-.flashback .square {
+.flashback .v-square {
 width: 40px;
 height: 40px;
 border: 3px solid rgba(var(--dark),.8);
@@ -18,7 +18,7 @@ position: relative;
 top: 25px;
 left: 25px;
 }
-.flashback .icon:before {
+.flashback .v-icon:before {
 content:var(--unicode);
 font-family: starry;
 color: rgba(var(--dark),.8);
@@ -27,7 +27,7 @@ position: relative;
 top: -10px;
 left: 36px;
 }
-.flashback .date {
+.flashback .v-date {
 font-family: source sans pro;
 font-size: 20px;
 text-transform: uppercase;
@@ -37,7 +37,7 @@ position: relative;
 top: -35px;
 left: 100px;
 }
-.flashback .bar {
+.flashback .v-bar {
 width: 300px;
 background: rgba(var(--dark),.8);
 height: 3px;
@@ -45,7 +45,7 @@ position: relative;
 left: 100px;
 top: -30px;
 }
-.flashback .postbody {
+.flashback .v-postbody {
 padding: 40px;
 text-align: left;
 font-weight: 400;
@@ -56,17 +56,17 @@ color: rgba(120,120,120,1);
 padding-top: 0px;
 padding-bottom: 25px;
 }
-.flashback .postbody b {
+.flashback .v-postbody b {
 color: rgba(var(--dark),1);
 }
-.flashback .postbody i {
+.flashback .v-postbody i {
 opacity: .7;
 }
-.flashback .postbody u {
+.flashback .v-postbody u {
 text-decoration: none;
 border-bottom: 2px solid rgba(var(--dark),1);
 }
-.flashback .notes {
+.flashback .v-notes {
 background: rgba(var(--light),.2);
 width: 350px;
 position: relative;
@@ -78,7 +78,7 @@ color: rgba(var(--dark),1);
 padding: 5px;
 font-style: italic;
 }
-.flashback .notes a {
+.flashback .v-notes a {
 text-decoration: none;
 text-transform: uppercase;
 font-family: source sans pro;
