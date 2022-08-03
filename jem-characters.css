@@ -1,0 +1,50 @@
+#mars {
+  --unicode:'\a129';
+  --dark: 146, 202, 167;
+}
+
+#amber {
+  --unicode:'\a131';
+  --dark: 215, 146, 151;
+}
+
+#cain {
+  --unicode:'\a92';
+  --dark:150, 199, 193;
+}
+
+#olive {
+  --unicode:'\a71';
+  --dark:228, 163, 146;
+}
+
+#rook {
+  --unicode:'\a25';
+  --dark:83, 163, 128;
+}
+
+
+#vanille {
+  --unicode:'\a44';
+  --dark:161, 181, 207;
+}
+
+#delphi {
+  --unicode:'\a13';
+  --dark:187, 174, 209;
+}
+
+#odin {
+  --unicode:'\e90d';
+  --dark:169, 183, 222;
+}
+
+#rafe {
+  --unicode:'\a73';
+  --dark:71, 98, 168;
+}
+
+#val {
+  --unicode:'\a53';
+  --dark:171, 192, 196;
+}
