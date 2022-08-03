@@ -50,7 +50,7 @@ line-height: 25px;
 font-size: 15px;
 color: rgba(120,120,120,1);
 font-family: roboto;
-padding-top: 5px;
+padding-top: 0px;
 padding-bottom: 20px;
 }
 .loveade .love-postbody b {
@@ -75,7 +75,6 @@ text-align: right;
 background:  -webkit-linear-gradient(top, rgba(var(--dark),1), rgba(var(--dark),.8));
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
-height: 15px;
 margin-bottom: -15px;
 }
 .loveade .love-notes {
