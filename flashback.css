@@ -24,7 +24,7 @@ font-family: starry;
 color: rgba(var(--dark),.8);
 font-size: 25px;
 position: relative;
-top: -10px;
+top: -5px;
 left: 36px;
 }
 .flashback .v-date {
