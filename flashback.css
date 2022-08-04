@@ -26,6 +26,9 @@ font-size: 25px;
 position: relative;
 top: -5px;
 left: 36px;
+background: -webkit-linear-gradient(bottom right, rgba(var(--dark),1), rgba(var(--light),.5));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .flashback .v-date {
 font-family: source sans pro;
