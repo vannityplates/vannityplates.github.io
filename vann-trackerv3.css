@@ -146,6 +146,7 @@ right: -380px;
 }
 .cheerup .v-thread-ongoing {
 height: 70px;
+overflow: hidden;
 }
 .cheerup .v-thread-ongoing .v-icon2 { 
 width: 55px;
@@ -225,6 +226,7 @@ font-size: 17px;
 }
 .cheerup .v-thread-closed {
 height: 70px;
+overflow: hidden;
 }
 .cheerup .v-thread-closed .v-icon2 { 
 width: 55px;
