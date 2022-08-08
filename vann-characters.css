@@ -8,6 +8,11 @@
 --light:255, 159, 128;
 --unicode: '\a85';
 }
+#caelum {
+--dark:163, 59, 76;
+--light:201, 139, 149;
+--unicode: '\a16';
+}
 #dima {
 --dark:53,76,125;
 --light:111, 129, 168;
