@@ -109,7 +109,4 @@ font-size: 12px;
 font-weight: 700;
 color: rgba(var(--dark),.8);
 margin: 5px;
-border-bottom: 1px solid rgba(var(--dark),.8);
-padding-bottom: 2px;
-margin-bottom: 7px;
 }
