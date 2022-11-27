@@ -566,6 +566,7 @@ font-size: 13px;
 line-height: 16px;
 overflow: auto;
 text-align: left;
+text-transform: lowercase;
 }
 .jem-wand-desc::-webkit-scrollbar { width: 6px;}
 .jem-wand-desc::-webkit-scrollbar-thumb { background-color: rgba(Var(--dark),.8); }
