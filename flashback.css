@@ -43,7 +43,28 @@ background: -webkit-linear-gradient(bottom right, rgba(var(--dark),1), rgba(var(
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-
+.flashback .v-icon-alt {
+width: 65px;
+height: 65px;
+background: #fff;
+position: relative;
+top: -25px;
+left: 310px;
+z-index: 12;
+border-radius: 100px;
+border: 1px solid rgba(var(--dark),.7);
+}
+.flashback .v-icon-alt span {
+color: #fff;
+font-size: 50px;
+position: relative;
+top: 9px;
+left: 6px;
+z-index: 12;
+background: -webkit-linear-gradient(bottom right, rgba(var(--dark),1), rgba(var(--light),.6));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .flashback .v-date {
 font-family: dm sans;
 font-size: 15px;
