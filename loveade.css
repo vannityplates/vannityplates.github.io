@@ -23,7 +23,22 @@ font-family: starry;
 color: rgba(var(--dark),1);
 font-size: 35px;
 line-height: 70px;
-
+}
+.loveade .love-icon-alt {
+height: 70px;
+width: 70px;
+border-radius: 100%;
+background: rgba(var(--dark),.2);
+text-align: center;
+position: relative;
+top: 10px;
+left: 10px;
+}
+.love-icon-alt span {
+-webkit-font-smoothing: antialiased;
+color: rgba(var(--dark),1);
+font-size: 35px;
+line-height: 70px;
 }
 .loveade .love-bar {
 width: 295px;
